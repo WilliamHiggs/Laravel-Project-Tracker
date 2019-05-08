@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>William Higgs Projects</title>
+        <title>Projects</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -68,12 +68,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    William Higgs Projects
+                    Projects
                 </div>
 
                 <div class="links">
                     <a href="/projects">Projects</a>
-                    <a href="https://github.com/WilliamHiggs">GitHub</a>
+                    <a href="/login">Login</a>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.app')
 
 @section('content')
   <h1 class="title">Edit Project<h1>
@@ -42,5 +42,7 @@
         </div>
       </div>
     </form>
+
+    @include ('errors')
 
 @endsection
