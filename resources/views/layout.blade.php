@@ -15,26 +15,22 @@
 
 <body>
 
-  <div>
+  <div class="box">
     <a href="/">
-      <span class="icon">
-        <i class="fas fa-home"></i>
+      <span class="icon is-large">
+        <i class="fas fa-lg fa-home"></i>
       </span>
     </a>
-  </div>
 
-  <div>
     <a href="/projects">
-      <span class="icon">
-        <i class="fas fa-folder-open"></i>
+      <span class="icon is-large">
+        <i class="fas fa-lg fa-folder-open"></i>
       </span>
     </a>
-  </div>
 
-  <div>
     <a href="/projects/create">
-      <span class="icon">
-        <i class="fas fa-edit"></i>
+      <span class="icon is-large">
+        <i class="fas fa-lg fa-edit"></i>
       </span>
     </a>
   </div>
