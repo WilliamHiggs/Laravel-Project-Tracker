@@ -17,7 +17,6 @@ class ProjectTasksController extends Controller
 
       $task->$method();
 
-
       return back();
     }
 
@@ -32,4 +31,5 @@ class ProjectTasksController extends Controller
 
       return back();
     }
+
 }

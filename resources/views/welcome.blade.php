@@ -67,14 +67,25 @@
         <div class="flex-center position-ref full-height">
 
             <div class="content">
+
                 <div class="title m-b-md">
-                    Projects
+                  <img src="/img/Project-tracker-logo.png"></img>
                 </div>
 
                 <div class="links">
                     <a href="/projects">Projects</a>
-                    <a href="/login">Login</a>
+
+                    @guest
+                      <a href="/login">Login</a>
+                    @endguest
+
+                    @auth
+                      <a href="/projects/create">Create Project</a>
+                    @endauth
+
+                    </a>
                 </div>
+
             </div>
         </div>
     </body>

@@ -15,7 +15,9 @@
                     @endif
 
                     You are logged in!
-
+                  <div>
+                    <a href="/projects">Go to your projects</a>
+                  </div>
                 </div>
             </div>
         </div>
