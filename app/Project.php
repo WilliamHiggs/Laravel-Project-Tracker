@@ -14,7 +14,9 @@ class Project extends Model
       parent::boot();
 
       static::deleted(function ($project){
-        //DELETE USERS TASKS
+        foreach ($project->tasks as $task) {
+          $task->delete();
+        }
       });
     }
 
