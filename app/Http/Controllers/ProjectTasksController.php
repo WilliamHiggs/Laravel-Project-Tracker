@@ -25,7 +25,7 @@ class ProjectTasksController extends Controller
 
       $project->addTask(
         request()->validate(
-          ['description' => 'required']
+          ['description' => ['required', 'min:3', 'max:255']]
         )
       );
 

@@ -25,8 +25,14 @@
 
           <label class="checkbox {{ $task->completed ? 'is-complete' : '' }}" for="completed">
             <input type="checkbox" name="completed" onChange="this.form.submit()" {{ $task->completed ? 'checked' : '' }}>
-            {{ $task->description }}
+              {{ $task->description }}
           </label>
+
+          @if($task->completed)
+            <i style="font-size:10px;">
+              Updated: {{ date("H:i d-m-Y", strtotime($task->updated_at)) }}
+            </i>
+          @endif
 
         </form>
       </div>
