@@ -27,10 +27,10 @@ class AuthServiceProvider extends ServiceProvider
 
         Gate::before(function ($user) {
 
-          if ($user->id == 1) {
+          if ($user->email == 'admin@projecttracker.com') {
             return true;
           } //admin id
-          
+
         });
     }
 }
